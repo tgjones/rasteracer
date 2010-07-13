@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+	<Asset Type="TJ.RayTracing.Framework.Scene">
+		<Lights>
+			<Item Type="TJ.RayTracing.Framework.Lights.PointLight">
+				<Colour>1 1 1</Colour>
+				<Location>5 10 0</Location>
+			</Item>
+		</Lights>
+		<Primitives>
+			<Item Type="TJ.RayTracing.Framework.Primitives.Plane">
+				<Reflectivity>0.1</Reflectivity>
+				<Material Type="TJ.RayTracing.Framework.Materials.CheckerboardMaterial">
+					<Colour>0 0 0.5</Colour>
+					<AlternateColour>0 0 0.7</AlternateColour>
+				</Material>
+				<Normal>0 1 0</Normal>
+				<Distance>0</Distance>
+			</Item>
+			<Item Type="TJ.RayTracing.Framework.Primitives.Sphere">
+				<Reflectivity>0.5</Reflectivity>
+				<Material>
+					<Colour>1 0 0</Colour>
+				</Material>
+				<Centre>0 1 0</Centre>
+				<Radius>1</Radius>
+			</Item>
+			<Item Type="TJ.RayTracing.Framework.Primitives.Sphere">
+				<Reflectivity>0.5</Reflectivity>
+				<Material>
+					<Colour>1 0 0</Colour>
+				</Material>
+				<Centre>20 1 0</Centre>
+				<Radius>1</Radius>
+			</Item>
+			<Item Type="TJ.RayTracing.Framework.Primitives.Sphere">
+				<Reflectivity>0.5</Reflectivity>
+				<Material>
+					<Colour>1 0 0</Colour>
+				</Material>
+				<Centre>0 1 15</Centre>
+				<Radius>1</Radius>
+			</Item>
+			<Item Type="TJ.RayTracing.Framework.Primitives.Sphere">
+				<Reflectivity>0.5</Reflectivity>
+				<Material>
+					<Colour>1 0 0</Colour>
+				</Material>
+				<Centre>15 1 15</Centre>
+				<Radius>1</Radius>
+			</Item>
+			<Item Type="TJ.RayTracing.Framework.Primitives.Sphere">
+				<Reflectivity>0.5</Reflectivity>
+				<Material>
+					<Colour>0 0 1</Colour>
+				</Material>
+				<Centre>10 3 0</Centre>
+				<Radius>3</Radius>
+			</Item>
+			<Item Type="TJ.RayTracing.Framework.Primitives.Sphere">
+				<Reflectivity>0.5</Reflectivity>
+				<Material>
+					<Colour>0 0 1</Colour>
+				</Material>
+				<Centre>10 3 10</Centre>
+				<Radius>3</Radius>
+			</Item>
+			<Item Type="TJ.RayTracing.Framework.Primitives.Sphere">
+				<Reflectivity>0.5</Reflectivity>
+				<Material>
+					<Colour>0 0 1</Colour>
+				</Material>
+				<Centre>0 3 10</Centre>
+				<Radius>3</Radius>
+			</Item>
+		</Primitives>		
+	</Asset>
+</XnaContent>
